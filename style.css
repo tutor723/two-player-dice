@@ -1,0 +1,25 @@
+#box{
+    height:450px;
+    width:450px;
+    background-color: aquamarine;
+    margin:auto;
+}
+#roll{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+
+#dice{
+    height:100px;
+    width:100px;
+    background-color:yellow;
+    margin:auto;
+}
+.display{
+  visibility: hidden ;
+}
+
+#start{
+    visibility: hidden;
+}
