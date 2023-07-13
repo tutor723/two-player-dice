@@ -23,6 +23,7 @@ start.addEventListener("click",start1);
 hold.addEventListener("click", stopPlayer);
 
 function start1(){
+    win.innerHTML  = 'START AGAIN ';
     scorePlayer1 = 0;
     total1 = 0;
     scorePlayer2 = 0;
@@ -98,16 +99,16 @@ function win1(){
     console.log(`total1 is ${award2}`)
     console.log(`total2 is ${total2}`)
    
-    if(award2 > total2 && sco1 != 1 && sco2 != 1 && total2 !=0){
+    if(award2 > total2 && sco1 != 1 && sco2 != 1 && total2 !=0 && total1 != 0){
     win.innerHTML = 'Player 1 win';
  }
      
- else if (award2 < total2 && sco1 != 1 && sco2 != 1 && total2 !=0)
+ else if (award2 < total2 && sco1 != 1 && sco2 != 1 && total2 !=0 && total1 != 0)
  {
      win.innerHTML = 'Player 2 win';
      
  }
- else if  (award2 == total2 && sco1 != 1 && sco2!= 1 && total2 !=0){
+ else if  (award2 == total2 && sco1 != 1 && sco2!= 1 && total2 !=0 && total1 != 0){
     win.innerHTML = 'It is tie';
  }
  
