@@ -69,23 +69,25 @@ function player2() {
     win.innerHTML = 'YOU LOOSE';
     
    }
- var award2 =award1;
+win1();
+}
+function win1(){
+    var award2 =award1;
  
-   console.log(`total1 is ${award2}`)
-   console.log(`total2 is ${total2}`)
-  
-   if(award2 > total2){
-   win.innerHTML = 'Player 1 win';
+    console.log(`total1 is ${award2}`)
+    console.log(`total2 is ${total2}`)
+   
+    if(award2 > total2){
+    win.innerHTML = 'Player 1 win';
+ }
+     
+ else
+ {
+     win.innerHTML = 'Player 2 win';
+     
+ }
+ 
 }
-    
-else
-{
-    win.innerHTML = 'Player 2 win';
-    
-}
-
-}
-
 
 function stopPlayer(){
     win.innerHTML  = 'STOP ';
