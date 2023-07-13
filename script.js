@@ -52,6 +52,13 @@ function player1() {
     total1 = 0;
     win.innerHTML = ' YOU LOOSE AND CLICK  ON START AGAIN';
    
+    sco1.innerHTML =`PLAYER1 SCORE IS :0`
+    sco2.innerHTML =`PLAYER2 SCORE IS :0`
+    tot1.innerHTML =`PLAYER1 TOTAL IS :0`
+    tot2.innerHTML =`PLAYER2 TOTAL IS :0`
+
+
+
    
     return award1;
    }
