@@ -55,7 +55,7 @@ function player2() {
     
     win.innerHTML = 'ROLL AGAIN';
     scorePlayer2 =  Math.floor(Math.random() * 6) + 1;
-    sco2.innerHTML =`Player2 score is ${scorePlayer1}`;
+    sco2.innerHTML =`Player2 score is ${scorePlayer2}`;
     console.log(scorePlayer2);
    
     total2 += scorePlayer2;
