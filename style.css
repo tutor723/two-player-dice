@@ -1,37 +1,35 @@
 #box{
-    height:550px;
-    width:900px;
+    height:600px;
+    width:480px;
     background-color: aquamarine;
-    margin:auto;
+   margin: auto;
 }
-#rollPlayer1,#rollPlayer2{
-    margin-left: 100px;
-    margin-top: 100px;
 
-  
-}
 
 #dice1{
     height:350px;
-    float: left;
-    width:30%;
+
+    display: inline-block;
+    width:150px;
     background-color:yellow;
-   margin-left: 100px;
-   margin-right: 100px;
-   margin-top: 50px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 10px;
+  
 }
 #dice2{
     height:350px;
-    width:30%;
+    width:150px;
     background-color:yellow;
-    
-    margin-right: 100px;
-    float: left;
-    margin-top: 50px;
+    margin:auto;
+    display: inline-block;
+   
 }
 #win{
-    margin-left: 390px;
-    margin-top: 40px;
+    margin-left:250 px;
+    margin-TOP: 30 px;
+    padding-top: 20PX;
+
 }
 #div{
     height:300px;
@@ -48,6 +46,55 @@ body{
     background-image: url("back.jpg"); 
 }
 #hold{
-    margin-left: 390px;
+    margin-left: 30px;
     margin-top: 40px;
+}
+#buttonStart{
+  padding-top: 30px;
+  padding-left: 50px;
+  
+}
+
+@import url('https://fonts.googleapis.com/css?family=B612+Mono');
+
+html, body,#name {
+    font-family: "B612 Mono", monospace;
+    text-align: center;
+}
+#stop{
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 350px) {
+    #dice1{
+      
+        width:150px;
+        float: left;
+
+        
+    }
+
+        #dice2{
+           
+            width:150px;
+            float: left;
+            margin-top: 40px;
+
+        }
+           
+           
+         #hold,#start{
+         margin-right:150px;
+           }
+
+           #win{
+            margin-right:130px;
+           }
+body{
+           overflow: hidden;}
+
+           #heading{
+            margin-top: 40px;
+           }
+   
 }
